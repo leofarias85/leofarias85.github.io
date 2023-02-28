@@ -1,0 +1,231 @@
+/* estilo general*/
+
+* {box-sizing: border-box;
+}
+
+body {background-color: #EEFFEE;}
+
+h1 { color: lightgrey;
+    font-family: 'Covered By Your Grace';}
+
+h1:hover{
+    color: rgb(47, 255, 238);
+    text-shadow:  0 0 15px  rgb(152, 247, 232);
+    transition: all 0.5s ease; }
+
+p{ font-family: 'Covered By Your Grace';
+    font-size: 18px;}
+
+p:hover{
+    color: rgb(45, 255, 55);
+    text-shadow:  0 0 15px  rgb(36, 255, 66);
+    transition: all 0.5s ease;}
+
+
+ #titulo {
+    color: rgb(43, 3, 25);
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Covered By Your Grace';
+    padding: 10px;
+    margin: 30px;}
+
+#titulo:hover{
+    color: rgb(64, 255, 47);
+    text-shadow:  0 0 15px  rgb(235, 255, 252);
+    transition: all 0.5s ease;}
+   
+#contacto{
+    font-family: 'Covered By Your Grace';
+    text-align: center;}
+
+ ul{
+    font-family: 'Covered By Your Grace';
+    font-size: 18px;
+ }
+ ul:hover{
+    color: rgb(45, 255, 55);
+    text-shadow:  0 0 15px  rgb(36, 255, 66);
+    transition: all 0.5s ease;}   
+
+.mov{
+    text-align: center;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid rgb(73, 222, 233);
+    margin: 30px;}
+
+.informacion {
+    padding: 15px;
+    background-color: white;
+    border: 2px solid rgb(73, 222, 233);
+    margin: 30px;}
+
+/* botones*/
+
+#salmon {
+    background-color: white;
+    color: black;
+    border: 2px solid #FFF1E8; 
+    transition-duration: 0.4s;
+    font-size: 16px;
+    border-radius: 8px;}
+
+#salmon:hover {
+    background-color: #FFF1E8;
+    color: black;}
+
+
+#celeste{
+    background-color: white;
+    color: black;
+    border: 2px solid #C1FDFD; 
+    font-size: 16px;
+    border-radius: 8px;}
+
+#celeste:hover {
+        background-color: #C1FDFD;
+        color: black;}
+
+#verde {
+    background-color: white;
+    color: black;
+    border: 2px solid #A3FF9A; 
+    font-size: 16px;
+    border-radius: 8px;}
+
+#verde:hover {
+    background-color: #A3FF9A;
+    color: white; }
+
+#white {
+    background-color: white;
+    color: black;
+    border: 2px solid #EEFFEE;
+    font-size: 16px;
+    border-radius: 8px;}
+
+#white:hover {
+    background-color:#EEFFEE;
+    color: black;}
+
+#indice2 {
+    background-color: white;
+    color: rgb(0, 134, 22);
+    border: 2px solid #3f0205; 
+    font-size: 16px;
+    border-radius: 8px;
+    margin: 1px; 
+    font-family: 'Covered By Your Grace';}
+
+#indice2:hover {
+    background-color: #3f0205;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;}
+
+ #indice {
+    font-size: 15px;
+    font-family: 'Covered By Your Grace';}
+
+#ocultar {
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+    font-family: 'Covered By Your Grace';}
+
+
+/* imagen*/
+
+img  {
+    border-radius: 50%;
+    height:"350px" width="350px"; }
+
+.centrar{
+    text-align: center;}
+
+
+
+/* iconos de contacto*/
+
+.mov ul li:hover.fa-phone{
+    color: rgb(218, 49, 203);
+    text-shadow:  0 0 15px rgb(230, 78, 209);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.mov ul li:hover.fa-facebook{
+    color: rgb(42, 27, 180);
+    text-shadow:  0 0 15px rgb(42, 27, 180);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.mov ul li:hover.fa-instagram{
+    color: rgb(255, 16, 16);
+    text-shadow:  0 0 15px  rgb(255, 146, 4);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+
+/* iconos de informacion*/
+
+
+
+.us{color:rgb(1, 16, 153);}
+
+.informacion i:hover.fa-user {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;} 
+
+.informacion i:hover.fa-envelope {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;} 
+
+.informacion i:hover.fa-pen {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.informacion i:hover.fa-laptop {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+ 
+.informacion i:hover.fa-language{
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.informacion i:hover.fa-brush {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.informacion i:hover.fa-clock {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+ 
+.informacion i:hover.fa-bolt {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;}
+
+.informacion i:hover.fa-circle-up {
+    color: rgb(255, 151, 16);
+    text-shadow:  0 0 15px  rgb(255, 151, 16);
+    transition: all 0.5s ease;
+    cursor: pointer;} 
+
+
+
